@@ -24,6 +24,8 @@
 
 #### It seems like only several bricking issues would lead to the handshake, however you can find more info about it in the main README
 
+***
+
 #### The handshake intercepts this brief window:
 The Request (SYNC): 
 
