@@ -2,4 +2,5 @@
 
 ### Here you will find information about MTK's BootROM handshake, especially after One UI 7 updates
 
-## [What is a BootROM?](bootrom.md)
+## [What is a BootROM?](brom.md)
+## [MTK BROM](mtkbrom.md)
