@@ -1,8 +1,10 @@
 # MTK BROM/BROM Handshake
-***
+
 ## The MediaTek (MTK) BootROM handshake is the initial communication protocol that allows external software to talk directly to a device’s unalterable, hardware-level BootROM. 
 
-### It serves as a rescue or development pathway used to unbrick, root, or extract data from a device when it cannot boot into normal operating mode. Sometimes, it can also be exploited to do things such as changing IMEI, S/N, exploiting the TEE & more
+### It serves as a rescue or development pathway used to unbrick, root, or extract data from a device when it cannot boot into normal operating mode. Sometimes, some people also use it to do things such as changing IMEI, S/N, exploiting the TEE (Trusted Execution Environment) & more
+
+***
 
 ## How the Handshake Works
 
@@ -10,9 +12,13 @@
 
 #### When a MediaTek-powered device is completely turned off and connected via USB, its CPU briefly exposes a hardware-level COM port for about 1 second before booting into standard charging mode. 
 
+***
+
 ### Setting up - Newer devices/prior to One UI 7
 
 #### You can use the test-points, GPIOs that are often named as "KCOL0", "KROW0", "TP". Most Samsung devices' test-points are not named on the motherboard.
+
+___
 
 ### Setting up - Newer devices/One UI 7+ (such a shame)
 
@@ -32,6 +38,8 @@ The Session:
    ```- Once both sides confirm the transmission, a secure low-level connection is established.```
 
    ```- This allows the computer to send a "Download Agent" (DA) payload to flash, back up, or manipulate the device’s internal partitions.```
+
+***
 
 ### When and Why It Is Used
 
