@@ -4,7 +4,7 @@
 
 ### The MediaTek (MTK) BootROM handshake is the initial communication protocol that allows external software to talk directly to a device’s unalterable, hardware-level BootROM. 
 
-#### It serves as a rescue or development pathway used to unbrick, root, or extract data from a device when it cannot boot into normal operating mode. Sometimes, some people also use it to do things such as changing IMEI, S/N, exploiting the TEE (Trusted Execution Environment) & more
+#### - It serves as a rescue or development pathway used to unbrick, root, or extract data from a device when it cannot boot into normal operating mode. Sometimes, some people also use it to do things such as changing IMEI, S/N, exploiting the TEE (Trusted Execution Environment) & more
 
 ***
 
