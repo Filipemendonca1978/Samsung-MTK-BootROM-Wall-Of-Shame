@@ -4,14 +4,14 @@
 
 #### It acts as the immutable "root of trust", containing the very first instructions a device executes when powered on to initialize hardware and launch the operating system.
 
+
 ## What Is It Used For?
 
 #### A BootROM is the foundation of a device's boot chain, serving several critical functions:
 
 ### Initial Hardware Initialization: 
 
-#### When the power turns on, the CPU is "blank" and knows nothing about its surroundings. 
-The BootROM sets up essential pathways (such as internal memory controllers and clocks) so the processor can operate.
+#### When the power turns on, the CPU is "blank" and knows nothing about its surroundings, so the BootROM sets up essential pathways (such as internal memory controllers and clocks) so the processor can operate.
 
 ### Executing the Root of Trust: 
 
