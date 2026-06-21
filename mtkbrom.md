@@ -18,7 +18,7 @@
 
 #### You can use the test-points, GPIOs that are often named as "KCOL0", "KROW0", "TP". Most Samsung devices' test-points are not named on the motherboard.
 
-___
+***
 
 ### Setting up - Newer devices/One UI 7+ (such a shame)
 
@@ -49,6 +49,6 @@ The Session:
 
 ##### Bootloader Unlocking & Rooting: 
 
-- Modding tools (like mtkclient from [bkerler](https://github.com/bkerler/mtkclient)) use the handshake to overwrite security partitions, bypass lock states, or temporarily disable BootROM protections to unlock the bootloader.
+- Modding tools (like [mtkclient](https://github.com/bkerler/)) from [bkerler](https://github.com/bkerler/)) use the handshake to overwrite security partitions, bypass lock states, or temporarily disable BootROM protections to unlock the bootloader.
 
 - Forensic Data Extraction: Because the BootROM is hardware-baked, forensic software relies on this handshake to pull raw memory dumps from the device, even when the OS is locked or heavily encrypted.
