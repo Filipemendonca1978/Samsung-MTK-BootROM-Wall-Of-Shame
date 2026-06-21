@@ -4,3 +4,4 @@
 
 ## [What is a BootROM?](brom.md)
 ## [MTK BROM](mtkbrom.md)
+## [One UI 7](oneui7.md)
